@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AlJoker</string>
+    <string name="dialog_title">سيتم تحميل بعض البيانات من السيرفر</string>
+    <string name="dialog_message">approximately few size of additional data must be downloaded to use this program. if you are using a mobile network, this may incur additional charges.</string>
+    <string name="dialog_confirm">طيب</string>
+    <string name="dialog_cancel">كنسل</string>
+    <string name="dns_server">8.8.8.8</string>
+    <string name="file_select_error">Error ! System File Browser Not Find, Will Use Url Mode</string>
+    <string name="permission_error">Unable to contact the server</string>
+    <string name="no_file">No File</string>
+    <string name="radio_local">from local</string>
+    <string name="radio_net">from internet</string>
+    <string name="url_error">URL input is incorrect</string>
+    <string name="down_success">Download Success Get %d Host Records</string>
+    <string name="down_error">Download Failed</string>    <string name="select_hosts">اختر الملف</string>
+    <string name="dialog_messagee">اختر ملف الهوست وتاكد انه اخر تحديث من قروب المشتركين</string>
+
+</resources>

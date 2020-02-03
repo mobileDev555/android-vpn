@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg2"
+    android:orientation="vertical"
+    tools:context=".play">
+
+    <Button
+        android:id="@+id/buttonStart2"
+
+        android:layout_width="211dp"
+        android:layout_height="66dp"
+
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="  تنظيف"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.923" />
+
+    <Button
+        android:id="@+id/buttonStart1"
+
+        android:layout_width="307dp"
+        android:layout_height="62dp"
+
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="اغلاق الحمايه"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStart2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.931" />
+
+
+    <Button
+        android:id="@+id/buttonStart"
+
+        android:layout_width="307dp"
+        android:layout_height="62dp"
+
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="تشغيل الحمايه"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStart1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="207dp"
+        android:layout_height="99dp"
+        android:background="#B4161515"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#FFFCFC"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <Button
+        android:id="@+id/nono"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="إصلاح"
+        android:textColor="#FFFFEA00"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg2"
+    android:orientation="vertical"
+    tools:context=".home">
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="170dp"
+        android:layout_height="53dp"
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:text="اصلاح فيتنامية"
+        android:textColor="#FFFFEA00"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/downf3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:text="اصلاح عالمية"
+        android:textColor="#FFFFEA00"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/downf3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="170dp"
+        android:layout_height="55dp"
+
+
+        android:layout_marginTop="40dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:text="اصلاح كورية"
+        android:textColor="#FFFFEA00"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/datacl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/downf3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/downf"
+        android:layout_width="307dp"
+        android:layout_height="40dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="العالمية"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/downf3"
+
+        android:layout_width="307dp"
+        android:layout_height="40dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="الفيتنامية"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.682"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/downf2"
+
+        android:layout_width="307dp"
+        android:layout_height="40dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="الكورية"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="153dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:background="#1D00040A"
+        android:gravity="center"
+        android:textColor="#64DD17"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="153dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:background="#1E090501"
+        android:gravity="center"
+        android:textColor="#64DD17"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="108dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:background="#B4161515"
+        android:fontFamily="@font/calibri"
+        android:gravity="center"
+        android:text="الاشتراك"
+        android:textColor="#FFFFEA00"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@+id/time2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/datacl"
+
+        android:layout_width="358dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="مسح جميع الملفات"
+        android:textColor="#EC9F6D"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/downf3"
+        app:layout_constraintVertical_bias="0.71"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="104dp"
+        android:layout_height="65dp"
+        android:background="@drawable/homebb2"
+        android:fontFamily="@font/calibri"
+        android:shadowColor="#A81441"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="خروج"
+        android:textColor="#FFFFEA00"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
